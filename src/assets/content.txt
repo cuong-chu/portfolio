@@ -1,0 +1,74 @@
+--------Header section --------------
+# Menus
+Projects
+Skills
+About me
+
+--------banner section--------------
+# heading
+Hello, I'm Cuong Chu, 
+full-stack developer
+## sub heading
+A passion coder and problem-solving seeker
+
+--------Projects--------------
+-> Project 1
+# heading
+Landing page for self-introduction
+# sub heading
+Self-introduction page using HTML5, CSS3, JavaScript, Tailwind, Vite and React components
+link:
+
+-> Project 2
+# heading
+To-do List app
+# sub heading
+Interactive to-do list app using ReactJS
+link:
+
+-> Project 3
+# heading
+Ecommerce Website
+# sub heading
+Online shopping website using ReactJS and Tailwind CSS
+link:
+
+-> Project 4
+# heading
+Informational Website of the current company 
+# sub heading
+Responsive HTML/CSS/JavaScript/Elementor for the static website
+link:
+
+--------Skills--------------
+-> Lists of items
+Html, CSS, JavaScript
+Java
+SQL
+UI design in Figma
+React
+React JS
+Web application
+
+--------Additional technologies and skills--------------
+-> Lists of items
+Git
+Wordpress
+Elementor
+Teamwork
+Google studio, marketing tools
+C1 English
+N2 Japanese
+
+--------About me--------------
+2013
+Started working as an English teacher.
+2017
+Went to Japan for a Master Degree in International Administration.
+2020
+Graduated and worked for a Fintech company called Digital Wallet Corporation as a Digital Marketer.
+2022
+Realized that becoming an IT engineer is my next career, and built my first website with Elementor and Wordpress. 
+2023
+Got intensive training course with gakusai.ai in Java, Html, CSS, JavaScript, SQL, Java, and Web application
+
