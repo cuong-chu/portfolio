@@ -1,16 +1,18 @@
+
 import "./App.css";
-import Profile from "./assets/Photo.png";
+import Profile from "./assets/Chu-photo.png";
 import Project1 from "./assets/project1.png";
 import Project2 from "./assets/project2.png";
 import Project3 from "./assets/project3.png";
 import Project4 from "./assets/project4.png";
 import Facebook from "./assets/facebook.svg";
 import LinkedIn from "./assets/linkedin.svg";
-import Instagram from "./assets/instagram.svg";
+import Email from "./assets/mail.svg";
 import ArrowDown from "./assets/arrow-down.svg";
 import { useEffect, useState } from "react";
 
 function App() {
+  
   const [scrolling, setScrolling] = useState(false);
 
   const onPageScroll = () => {
@@ -81,7 +83,7 @@ function App() {
               </div>
             </div>
             <div className="relative">
-              <div className="after:bg-[url('./large-long.png')] after:bg-contain after:block after:bg-no-repeat after:w-[420px] after:h-[320px] after:absolute after:top-0 after:-left-20 sm:after:-left-40 before:bg-[url('./small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-10">
+              <div className="after:bg-contain after:block after:bg-no-repeat after:w-[420px] after:h-[320px] after:absolute after:top-0 after:-left-20 sm:after:-left-40 before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-10">
                 <img src={Profile} className="relative z-10 w-[280px] m-auto sm:w-[600px]" />
               </div>
             </div>
@@ -179,14 +181,14 @@ function App() {
                   <h2 className="font-semibold">Html, CSS, JavaScript</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="w-[70%]  h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">Java</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="w-[50%]  h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
@@ -195,14 +197,14 @@ function App() {
                   </h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="w-[80%]  h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">UI design in Figma</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-[75%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="w-[65%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
@@ -216,7 +218,7 @@ function App() {
                   <h2 className="font-semibold">React JS</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="w-[50%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
@@ -294,7 +296,7 @@ function App() {
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
                 <h3 className="absolute left-0 text-lg font-semibold">2020</h3>
                 <p>
-                  Graduated and worked for a Fintech company called Digital Wallet Corporation as a Digital Marketer.
+                  Graduated and worked for a Fintech company called Digital Wallet Corporation as a Digital Marketer and Operator.
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
@@ -316,23 +318,23 @@ function App() {
       <footer>
         <div className="container m-auto flex justify-between px-4 py-6">
           <div>
-            <p className="text-gray-300 text-sm">Copyright @ 2023</p>
+            <p className="text-gray-300 text-sm">Copyright @ 2024</p>
           </div>
           <div>
             <ul className="flex gap-4">
               <li>
-                <a>
+                <a href='https://www.facebook.com/map.pumbaa' target='_blank'>
                   <img src={Facebook} className="w-5" />
                 </a>
               </li>
               <li>
-                <a>
+                <a href='https://www.linkedin.com/in/cuongmanhchu' target='_blank'>
                   <img src={LinkedIn} className="w-5" />
                 </a>
               </li>
               <li>
-                <a>
-                  <img src={Instagram} className="w-5" />
+                <a a href="mailto:cuongmanhchu@gmail.com">
+                  <img src={Email} className="w-5" />
                 </a>
               </li>
             </ul>
@@ -350,6 +352,8 @@ function App() {
       }
     </div>
   );
+
+     
 }
 
 export default App;
