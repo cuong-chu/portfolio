@@ -71,9 +71,9 @@ function App() {
               </div>
               <div>
                 <p className="mt-4 text-gray-400">
-                  Former digital-marketing specialist, seeking to apply
-                  competent development skills with focus on collaboration,
-                  communication, and passion
+                  Former digital-marketing specialist, current full-stack developer
+                  seeking to apply competent web and software development skills 
+                  with passion of learning and creating.
                 </p>
                 <a href='https://shorturl.at/fmps2' download='cuong_chu_resume.pdf' target="_blank">
                 <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
@@ -97,37 +97,37 @@ function App() {
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project1} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Furniture store landing page
+                  Introduction landing page
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for online furniture store. HTML5,
-                  CSS3 (SCSS)
+                  Basic responsive HTML/CSS/JavaScript landing page
+                  for with the purpose of self-introduction
                 </p>
-                <div className="flex mt-12 gap-2">
-                  <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    Live preview
+                <div className="flex justify-center mt-12">
+                  <a href='https://www.smileswallet.com/japan' target='_blank'>
+                  <button className="flex text-sm px-10 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                    Check it out
                   </button>
-                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                    Checkout github
-                  </button>
+                  </a>
+                  
                 </div>
               </div>
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project2} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Designer furniture store landing page
+                  The simple chat app
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for online store of designer
-                  furniture. HTML5, CSS3 (SCSS)
+                  The simple chat app using React, Tailwind, and Vite
+                  with database stored in Google Firebase
                 </p>
-                <div className="flex gap-2 mt-12">
-                  <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    Live preview
+                <div className="flex justify-center mt-12">
+                  <a href='https://www.smileswallet.com/japan' target='_blank'>
+                  <button className="flex text-sm px-10 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                    Check it out
                   </button>
-                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                    Checkout github
-                  </button>
+                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -135,37 +135,37 @@ function App() {
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project3} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Landing page for front-end developer
+                  To-do app
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for landing page for front-end
-                  developer. HTML5, CSS3 (SCSS)
+                  Web-app to record, edit, and delete the tasks
+                  using ReactJS only
                 </p>
-                <div className="flex gap-4 mt-12">
-                  <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    Live preview
+                <div className="flex justify-center mt-12">
+                  <a href='https://basicproject03.netlify.app' target='_blank'>
+                  <button className="flex text-sm px-10 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                    Check it out
                   </button>
-                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                    Checkout github
-                  </button>
+                  </a>
+                  
                 </div>
               </div>
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project4} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Website redesign for The Venus project
+                  A Fintech company website
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for The Venus project. HTML5, CSS3
-                  (SCSS)
+                  Landing page to provide information regarding the service
+                  of the No.1 remittance company in Japan
                 </p>
-                <div className="flex gap-2 mt-12">
-                  <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    Live preview
+                <div className="flex justify-center mt-12">
+                  <a href='https://www.smileswallet.com/japan' target='_blank'>
+                  <button className="flex text-sm px-10 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                    Check it out
                   </button>
-                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                    Checkout github
-                  </button>
+                  </a>
+                  
                 </div>
               </div>
             </div>

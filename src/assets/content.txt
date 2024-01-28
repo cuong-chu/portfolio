@@ -14,31 +14,34 @@ A passion coder and problem-solving seeker
 --------Projects--------------
 -> Project 1
 # heading
-Landing page for self-introduction
+Introduction landing page
 # sub heading
-Self-introduction page using HTML5, CSS3, JavaScript, Tailwind, Vite and React components
+Basic responsive HTML/CSS/JavaScript landing page
+for with the purpose of self-introduction
 link:
 
 -> Project 2
 # heading
-To-do List app
+The simple chat app 
 # sub heading
-Interactive to-do list app using ReactJS
+The simple chat app using React, Tailwind, and Vite
+with database stored in Google Firebase
 link:
 
 -> Project 3
 # heading
-Ecommerce Website
+To-do app
 # sub heading
-Online shopping website using ReactJS and Tailwind CSS
-link:
+Web-app to record, edit, and delete the tasks 
+using ReactJS only
+link: https://basicproject03.netlify.app
 
 -> Project 4
 # heading
 Informational Website of the current company 
 # sub heading
 Responsive HTML/CSS/JavaScript/Elementor for the static website
-link:
+link: https://www.smileswallet.com/japan
 
 --------Skills--------------
 -> Lists of items
