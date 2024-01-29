@@ -104,7 +104,7 @@ function App() {
                   for with the purpose of self-introduction
                 </p>
                 <div className="flex justify-center mt-12">
-                  <a href='https://www.smileswallet.com/japan' target='_blank'>
+                  <a href='' target='_blank'>
                   <button className="flex text-sm px-10 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Check it out
                   </button>

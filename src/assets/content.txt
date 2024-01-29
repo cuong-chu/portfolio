@@ -26,7 +26,7 @@ The simple chat app
 # sub heading
 The simple chat app using React, Tailwind, and Vite
 with database stored in Google Firebase
-link:
+link: https://basicproject02.netlify.app/
 
 -> Project 3
 # heading
