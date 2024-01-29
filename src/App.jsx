@@ -75,7 +75,7 @@ function App() {
                   seeking to apply competent web and software development skills 
                   with passion of learning and creating.
                 </p>
-                <a href='https://shorturl.at/fmps2' download='cuong_chu_resume.pdf' target="_blank">
+                <a href='https://shorturl.at/rvJN8' download='cuong_chu_resume.pdf' target="_blank">
                 <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                   Download resume
                 </button>
